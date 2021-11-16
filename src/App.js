@@ -1,7 +1,7 @@
 import "./App.css";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Topbar from "./components/Topbar/Topbar";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Customer from "./pages/Customer/Customer";
 import CustomerDetails from "./pages/CustomerDetails/CustomerDetails";
 
