@@ -14,8 +14,7 @@ function App() {
         <Topbar />
           <Routes>
             <Route path="/" element={<Customer />}></Route>
-            <Route path="customer" element={<Customer />}></Route>
-            <Route path="customer/customerDetails/:customerId" element={<CustomerDetails />}></Route>
+            <Route path="customerDetails/:customerId" element={<CustomerDetails />}></Route>
           </Routes>
         </div>
       </div>

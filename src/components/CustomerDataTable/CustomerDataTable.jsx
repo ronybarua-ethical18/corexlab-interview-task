@@ -51,10 +51,10 @@ const CustomerDataTable = () => {
               >
                 {item.id}
               </TableCell>
-              <TableCell className="tableCellName">{item.name}</TableCell>
-              <TableCell className="tableCellName">{item.email}</TableCell>
-              <TableCell className="tableCellName">{item.mobile}</TableCell>
-              <TableCell className="tableCellName">{item.address}</TableCell>
+              <TableCell className="tableCellName" onClick={() => handleSingleCustomer(item.id)}>{item.name}</TableCell>
+              <TableCell className="tableCellName" onClick={() => handleSingleCustomer(item.id)}>{item.email}</TableCell>
+              <TableCell className="tableCellName" onClick={() => handleSingleCustomer(item.id)}>{item.mobile}</TableCell>
+              <TableCell className="tableCellName" onClick={() => handleSingleCustomer(item.id)}>{item.address}</TableCell>
               <TableCell className="tableCellName">
                 <MoreVertIcon className="actionIcon" onClick={handleClick} />
                 <Popper id={id} open={open} anchorEl={anchorEl}>

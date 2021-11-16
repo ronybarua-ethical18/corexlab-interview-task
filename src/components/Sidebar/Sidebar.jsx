@@ -23,7 +23,7 @@ const Sidebar = () => {
     {
       logo: <PeopleOutlineIcon style={{ marginRight: 15 }} />,
       text: "Customer",
-      link: "/customer",
+      link: "/",
     },
     {
       logo: <RedeemIcon style={{ marginRight: 15 }} />,

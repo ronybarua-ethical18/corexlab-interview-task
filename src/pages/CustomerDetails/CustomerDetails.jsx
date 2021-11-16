@@ -29,7 +29,7 @@ const CustomerDetails = () => {
       <Grid container spacing={4}>
         <Grid item md={4} className="detailsLeft">
           <div className="customerDetailsHeading">
-            <Link to="/customer">
+            <Link to="/">
               <ArrowBackIosIcon className="titleIcon" />
             </Link>
             <h2>Customer</h2>
