@@ -1,0 +1,28 @@
+.invoicePart, .toggleInvoice{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.invoicePart{
+    padding: 10px 0;
+    margin-bottom:10px;
+}
+
+.MuiTab-root {
+    font-size: 1rem !important;
+    color: #000 !important;
+    text-transform:capitalize !important;
+}
+.MuiTab-root.Mui-selected {
+    color: #1155cc !important;
+}
+.toggleBtn{
+    margin: 0px 15px;
+}
+.viewAll{
+    color:#1155cc;
+    cursor:pointer;
+}
+.tableBorder{
+    border:1px solid #F2F2F2;
+}

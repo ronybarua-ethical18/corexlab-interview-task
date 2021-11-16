@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&family=Righteous&family=Urbanist:wght@400;500;600;700;800&display=swap');
+.customerTable{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Urbanist', sans-serif;
+}
+.tableHeading{
+    background-color: #F1F5FE;
+}
+.tableCell{
+    color:#282828 !important;
+    font-weight: 600 !important;
+    font-size:16px !important;
+    text-align: left !important;
+    /* font-family: 'Raleway', sans-serif !important; */
+    /* font-family: 'Righteous', cursive !important; */
+    font-family: 'Urbanist', sans-serif !important;
+}
+.tableCellName{
+    font-family: 'Urbanist', sans-serif !important;
+    text-align:left;
+    font-size:16px !important;
+    font-weight: 500 !important;
+    color: #5F5F5F !important
+}
+.actionIcon{
+    cursor: pointer;
+}
+.actionPopper{
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    border-radius: 5px;
+    box-shadow: 11px 10px 9px -13px rgba(0,0,0,0.17);
+    background-color: white;
+}
+.actionButton, .actionButtonTwo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.actionButton, .actionButtonTwo span{
+    font-size:18px;
+    font-weight: 500;
+    color: #3F3F3F;
+}
+.actionButtonTwo{
+    margin-top:20px;
+}
+.actionIcons{
+    margin-right:15px;
+    font-weight: 500;
+    color: #3F3F3F !important;
+}
+.pagination{
+    margin-top:30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.MuiPaginationItem-page.Mui-selected {
+    background-color:#1155cc !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+.MuiPaginationItem-rounded {
+    border-radius: 50% !important;
+}
+.MuiPaginationItem-outlined {
+    border: none !important;
+    font-weight: bold !important;
+}
+.MuiPaginationItem-icon {
+    margin: 0 -8px;
+    font-size: 1.25rem;
+    color: blue;
+    background-color: #ECF1FB !important;
+    border-radius:50% !important;
+    padding:5px !important;
+}
+.tableRow{
+    cursor: pointer;
+}

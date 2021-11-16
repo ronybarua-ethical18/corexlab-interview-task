@@ -1,0 +1,41 @@
+.customer{
+    background-color:#FAFBFD;
+    padding: 35px 25px;
+    z-index:-1;
+}
+.customerHeading, .customerActions{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.customerActions button{
+    border: 1px solid lightgray;
+    outline:none;
+    cursor:pointer;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    color:rgba(82,82,82);
+    font-weight: bold;
+    background-color:white;
+    border-radius: 3px;
+}
+.exportBtn{
+    margin: 0px 12px;
+}
+.filterBtn{
+    margin-right: 12px;
+}
+.addCustomerBtn{
+    background-color:#1155cc !important;
+    color:white !important;
+}
+.customerIcon{
+    margin-right:12px;
+    font-size: 16px !important;
+}
+.customerDataTable{
+    background-color:#ffff;
+    padding:16px;
+    margin-top: 20px;
+}

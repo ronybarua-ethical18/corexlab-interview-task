@@ -1,0 +1,139 @@
+.customerDetails{
+    background-color:white;
+    padding: 35px 25px;
+    margin:0 20px;
+    z-index: -1;
+   
+}
+.detailsLeft{
+    -webkit-box-shadow: 11px 9px 4px -13px rgba(0,0,0,0.17);
+    -moz-box-shadow: 11px 9px 4px -13px rgba(0,0,0,0.17);
+    box-shadow: 11px 9px 4px -13px rgba(0,0,0,0.17);
+}
+.mailContact{
+    margin: 0 25px;
+}
+.customerAvatar{
+    color:white;
+    background-color: #1155cc !important;
+    font-size: 16px !important;
+    padding:4px;
+    font-weight: bold;
+}
+.customerDetailsHeading{
+    display: flex;
+    align-items:center;
+    border-bottom: 1px solid lightgray;
+    padding-bottom:1rem;
+}
+.titleIcon{
+    font-size: 16px !important;
+}
+.customerContact{
+    display: flex;
+    padding:20px 0px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid lightgray;
+}
+.contactList{
+    display:flex;
+    align-items:center;
+    margin-top:20px;
+    justify-content: flex-start;
+}
+.contact{
+    display: flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content: space-evenly;
+}
+.contactIcon{
+    background: #F4F8FF;
+    border-radius:50%;
+    font-size:22px !important;
+    color: #7F86A0;
+    padding:10px;
+    border:1px solid lightgray;
+}
+.MuiAccordionSummary-root {
+   padding: 0px !important;
+   border: none !important;
+}
+.AccordionTitle{
+    display:flex;
+    align-items:center;
+}
+.accordionIcon{
+    font-size: 30px !important;
+    margin-right:10px;
+}
+.accordionDetails{
+margin-bottom:20px;
+}
+.title{
+    font-size:16px !important;
+    font-weight: 600 !important;
+    color: #5F5F5F !important;
+    margin-top:10px !important;
+}
+.customerDetailsRight{
+    padding: 20px 0px;
+    border-bottom:1px solid lightgray;
+    display:flex;
+    align-items:center;
+    margin: 0px 20px;
+    justify-content:  space-between;
+}
+.customerActionButtons button{
+    border: 1px solid lightgray;
+    outline:none;
+    cursor:pointer;
+    padding: 12px 15px;
+    display: flex;
+    align-items: center;
+    color:rgba(82,82,82);
+    font-weight: 500;
+    background-color:white;
+    border-radius: 3px;
+}
+.customerActionButtons{
+    display:flex;
+    align-items:center;
+}
+.actionBTN{
+    margin-left: 15px;
+}
+.actionBTNIcon{
+    margin-left:12px;
+    font-size: 16px !important;
+}
+.amount{
+    margin-bottom:10px;
+    color: rgb(138, 138, 138);
+}
+.amount strong{
+    color: #000;
+    font-size:16px;
+}
+.MuiAppBar-colorPrimary {
+    color: #1155cc !important;
+    font-weight: 700 !important;
+    background-color: white !important;
+    border-bottom: 1px solid lightgray;
+}
+.multiTabs{
+    padding: 20px 0px;
+    margin: 0px 20px;
+}
+.MuiTab-root {
+    font-weight: 600 !important;
+}
+.MuiGrid-grid-xs-10 {
+    flex-basis: 0 !important;
+}
+.MuiBox-root-7 {
+padding: 24px 0px !important;
+}
+.profileDetails{
+    border-bottom: 1px solid lightgray;
+}

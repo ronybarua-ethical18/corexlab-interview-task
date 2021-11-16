@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&family=Righteous&family=Urbanist:wght@400;500;600;700;800&display=swap');
+.App, button {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Righteous', cursive;
+  font-family: 'Urbanist', sans-serif;
+  color:rgba(82,82,82);
+  font-size: 1rem;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
+  overflow:hidden;
 }
-
-.App-link {
-  color: #61dafb;
+.otherPage{
+  flex: 4;
+  width:100%;
+  overflow-y: scroll;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1, h2, h3, h4{
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Righteous', cursive;
+  font-family: 'Urbanist', sans-serif;
+  margin: 0;
+}
+h1{
+  font-size: 25px;
+}
+h2{
+  font-size:20px;
+}
+h3{
+  font-size: 18px;
+  font-weight: 700;
+}
+h4{
+  font-size:16px;
+  font-weight:600;
+  margin-top:10px;
+}
+small{
+  font-weight:500;
 }

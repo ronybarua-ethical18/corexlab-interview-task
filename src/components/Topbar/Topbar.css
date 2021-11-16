@@ -1,0 +1,61 @@
+.topbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    padding: 25px;
+    background-color: #ffffff;
+    z-index: 99;
+    position:sticky;
+    top:0px;
+    z-index: 2;
+}
+.topbarLeft{
+    display: flex;
+    align-items: center;
+}
+.topbarLeft input{
+    outline:none;
+    padding: 12px 50px;
+    font-weight: bold;
+    color:rgba(82,82,82);
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 25px;
+    margin-right: 20px;
+}
+.topbarRight{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.topRightIcon{
+    margin: 0 20px;
+    font-size: 30px !important;
+}
+.topLeftIcon{
+    font-size: 30px !important;
+}
+.searchBar{
+    display: flex;
+    position:relative;
+    align-items: center;
+}
+.searchIcon{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 20px;
+}
+.addButton{
+    padding:10px;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color:#1155cc;
+    color:white !important;
+    cursor:pointer;
+}
+.avatar{
+    color:white;
+    background-color: #1155cc !important;
+    font-size: 16px !important;
+    font-weight: bold;
+}
