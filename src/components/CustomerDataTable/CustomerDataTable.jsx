@@ -11,12 +11,11 @@ import Popper from "@material-ui/core/Popper";
 import EditIcon from "@material-ui/icons/Edit";
 import DeleteIcon from "@material-ui/icons/Delete";
 import Pagination from "@material-ui/lab/Pagination";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 import "./CustomerDataTable.css";
 
 const CustomerDataTable = () => {
-  const [data, setData] = useState(customerData);
-  const [anchorEl, setAnchorEl] = React.useState(null);
+  const [anchorEl, setAnchorEl] = useState(null);
 
   const handleClick = (event) => {
     setAnchorEl(anchorEl ? null : event.currentTarget);
@@ -27,8 +26,8 @@ const CustomerDataTable = () => {
 
   const navigate = useNavigate();
   const handleSingleCustomer = (id) => {
-      navigate(`customerDetails/${id}`);
-  }
+    navigate(`customerDetails/${id}`);
+  };
 
   return (
     <TableContainer className="customerTable">
@@ -44,13 +43,38 @@ const CustomerDataTable = () => {
           </TableRow>
         </TableHead>
         <TableBody>
-          {data.map((item) => (
+          {customerData.map((item) => (
             <TableRow key={item.id} className="tableRow">
-              <TableCell className="tableCellName" onClick={() => handleSingleCustomer(item.id)}>{item.id}</TableCell>
-              <TableCell className="tableCellName" onClick={() => handleSingleCustomer(item.id)}>{item.name}</TableCell>
-              <TableCell className="tableCellName" onClick={() => handleSingleCustomer(item.id)}>{item.email}</TableCell>
-              <TableCell className="tableCellName" onClick={() => handleSingleCustomer(item.id)}>{item.mobile}</TableCell>
-              <TableCell className="tableCellName" onClick={() => handleSingleCustomer(item.id)}>{item.address}</TableCell>
+              <TableCell
+                className="tableCellName"
+                onClick={() => handleSingleCustomer(item.id)}
+              >
+                {item.id}
+              </TableCell>
+              <TableCell
+                className="tableCellName"
+                onClick={() => handleSingleCustomer(item.id)}
+              >
+                {item.name}
+              </TableCell>
+              <TableCell
+                className="tableCellName"
+                onClick={() => handleSingleCustomer(item.id)}
+              >
+                {item.email}
+              </TableCell>
+              <TableCell
+                className="tableCellName"
+                onClick={() => handleSingleCustomer(item.id)}
+              >
+                {item.mobile}
+              </TableCell>
+              <TableCell
+                className="tableCellName"
+                onClick={() => handleSingleCustomer(item.id)}
+              >
+                {item.address}
+              </TableCell>
               <TableCell className="tableCellName">
                 <MoreVertIcon className="actionIcon" onClick={handleClick} />
                 <Popper id={id} open={open} anchorEl={anchorEl}>
@@ -72,13 +96,8 @@ const CustomerDataTable = () => {
         </TableBody>
       </Table>
       <div className="pagination">
-          <strong>Showing result 1 to 10 of 20 records</strong>
-        <Pagination
-          count= "4"
-        //   onChange={(event, value) => setPage(value)}
-          variant="outlined"
-          shape="rounded"
-        />
+        <strong>Showing result 1 to 10 of 20 records</strong>
+        <Pagination count="4" variant="outlined" shape="rounded" />
       </div>
     </TableContainer>
   );

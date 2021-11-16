@@ -10,9 +10,8 @@ import { accountData } from "../../dummyData/accountDummyData";
 import "./AccountDataTable.css";
 
 const AccountDataTable = () => {
-  const [data, setData] = useState(accountData);
   const [toggled, setToggled] = useState(false)
-
+  console.log(toggled)
   return (
     <TableContainer className="customerTable">
       <div className="invoicePart">
@@ -37,7 +36,7 @@ const AccountDataTable = () => {
           </TableRow>
         </TableHead>
         <TableBody>
-          {data.map((item) => (
+          {accountData.map((item) => (
             <TableRow key={item.id} className="tableRow">
               <TableCell className="tableCellName">{item.id}</TableCell>
               <TableCell className="tableCellName">{item.date}</TableCell>
